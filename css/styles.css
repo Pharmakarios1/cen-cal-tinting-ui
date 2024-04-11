@@ -236,6 +236,154 @@ nav ul li a:focus{
 }
 
 
+
+/* Servive section */
+
+.service-section-wrapper{
+    width: 100%;
+    min-height: 300px;
+    top: 2015px;
+    gap: 0px;
+    opacity: 0px;
+    background-color:#FAFAFA;
+
+}
+
+.service-header-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 1rem;
+    border-bottom: 1px solid rgb(228, 226, 226);
+}
+
+.service-header-wrapper button{
+   width: 155px;
+   height: 40px;
+   border-radius: 30px;
+   padding: .7rem 1.2rem;
+   border: 1px solid #00ADEE;
+   background: #F5FCFF;
+   color: #00ADEE;
+   font-weight: 800;
+
+}
+.service-header-wrapper h1{
+    color: #25313C;
+    font-family: Plus Jakarta Display;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.23px;
+    text-align: left;
+    padding-top: .8rem;
+
+}
+
+
+.service-header-wrapper p{
+    font-family: Plus Jakarta Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.1px;
+    text-align: left;
+    color:#6D7D8B;
+    ;
+
+}
+
+.service-main-wrapper{
+    padding: 1rem 0;
+}
+.content{
+    width:100%;
+    height: Hug (707px)px;
+    top: 160px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 0 1rem 2rem;
+}
+.content-wrapper{
+    padding: 1rem;
+}
+.content-wrapper h3{
+    padding-bottom: 2rem;
+    color:#25313C;
+    font-family: Plus Jakarta Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.06px;
+    text-align: left;
+
+}
+
+.content-wrapper p{
+    color: #6D7D8B;
+    padding-bottom: 1rem;
+
+}
+
+.content-wrapper ul{
+    list-style: none;
+
+}
+
+
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.example{
+    /* margin-left: 1rem; */
+    gap: 2rem;
+}
+
+.check{
+    align-items: center;
+    gap: .5rem;
+}
+
+.gap{
+    gap: 3rem;
+}
+
+
+.btn{
+    width: 100%;
+    height: 44px;
+    top: 351px;
+    left: 20px;
+    color: #fff;
+    background-color: #00ADEE;
+    border-radius: 4px;
+    border: 1px solid #00ADEE;
+    outline: none;
+    margin: 1.5rem 0;
+}
+
+.example ul li{
+    font-size: 13px;
+    color: #6D7D8B;
+}
+.example ul li img{
+    height: 12px;
+    width: 12px;
+}
+
+.list-top{
+    padding-top: 3rem;
+}
+.graphical img{
+    width: 100%;
+}
+
+
+
+/* About Us */
+
 /* 
 
 .service-main-wrapper{
