@@ -177,9 +177,21 @@ nav ul li a:focus{
 
 }
 
+.banner{
+    width: 100%;
+    height: 304px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    background-color: #FAFAFA;
+}
 
+.banner-items{
+    display: flex;
+    justify-content: space-between;
 
-
+}
 
 
 
