@@ -384,6 +384,91 @@ nav ul li a:focus{
 
 /* About Us */
 
+
+.about-us-wrapper{
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 126px;
+    top: 5075px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.about-us-content-wrapper{
+    margin: 0 1rem;
+}
+.about-button button{
+    min-width: 155px;
+    height: 40px;
+    border-radius: 30px;
+    padding: .7rem 1.2rem;
+    border: 1px solid #00ADEE;
+    background: #F5FCFF;
+    color: #00ADEE;
+    font-weight: 600;
+}
+.about-button h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.23px;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-us-content p{
+    width: 335px;
+    min-height: 60px;
+    top: 175px;
+    left: 20px;
+    opacity: 0px;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+
+}
+
+
+.about-us-content ul{
+    margin-left: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.about-us-image img{
+    width: 100%;
+    height: 381px;
+    
+}
+
+
+.faq{
+    width: 375px;
+    height: 856px;
+    top: 6345px;
+    padding: 30px 20px 34px 20px;
+    gap: 104px;
+    opacity: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 
 .service-main-wrapper{
