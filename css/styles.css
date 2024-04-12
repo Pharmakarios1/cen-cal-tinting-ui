@@ -427,6 +427,8 @@ nav ul li a:focus{
     font-weight: 400;
     line-height: 25px;
     text-align: left;
+    color: #6D7D8B;
+
 
 }
 
@@ -438,6 +440,8 @@ nav ul li a:focus{
     line-height: 30px;
     text-align: left;
     margin-bottom: 2rem;
+    color: #6D7D8B;
+
 }
 
 .about-us-image img{
@@ -446,10 +450,11 @@ nav ul li a:focus{
     
 }
 
+/* faq */
 
-.faq{
-    width: 375px;
-    height: 856px;
+.faq-wrapper{
+    width: 100%;
+    min-height: 500px;
     top: 6345px;
     padding: 30px 20px 34px 20px;
     gap: 104px;
@@ -457,13 +462,53 @@ nav ul li a:focus{
 
 }
 
+.faq-button-wrapper button{
+    min-width: 18px;
+    height: 35px;
+    border-radius: 30px;
+    padding: .7rem 1.2rem;
+    border: 1px solid #00ADEE;
+    background: #F5FCFF;
+    color: #00ADEE;
+    font-weight: 600;
+}
+
+.faq-button-wrapper h1{
+    color: #25313C;
+    margin: .7rem 0;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.23px;
+    text-align: left;
 
 
+}
+ 
+.faq-button-wrapper p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26.1px;
+    text-align: left;
 
+    color: #6D7D8B;
+}
 
+.faq-content-wrapper details{
+    padding: 1rem 1rem;
+    color: #6D7D8B;
+}
 
+.faq-content-wrapper details:first-child{
+    background-color: #F5FCFF;
+    color: #00ADEE;
+    min-height: 20px;
 
-
+}
+.faq-content-wrapper details:focus{
+    color: #00ADEE;
+    background-color: #F5FCFF;
+    min-height: 20px;
+}
 
 
 
