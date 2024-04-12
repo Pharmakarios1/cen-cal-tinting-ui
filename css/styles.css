@@ -515,7 +515,7 @@ nav ul li a:focus{
 
 .quotes-content-wrapper{
     width: 375px;
-    height: 1213px;
+    min-height: 213px;
     top: 7228px;
     gap: 0px;
     opacity: 0px;
@@ -629,6 +629,110 @@ nav ul li a:focus{
     border: 1px solid #00ADEE;
     margin: 1.5rem 0 1rem;
 }
+/* Testimonials */
+
+.testimonial-section-wrapper {
+    width: 375px;
+    height: 641px;
+    top: 8441px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #fff;
+    padding: 1re;
+}
+
+.testimonial-header-button{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.testimonial-header-button button{
+    margin: 2rem 1rem 2rem;
+    width: 150px;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid #00ADEE;
+    background: #F5FCFF;
+    color: #00ADEE;
+    font-weight: 600;
+
+}
+.testimonial-client-content{
+    display: flex; 
+    margin: 2rem 1rem 2rem;
+}
+
+.testimonial-content-wrapper h2{
+    margin: 0 1rem;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.23px;
+    color: #25313C;
+}
+
+.testimonial-client-content{
+    width: 375px;
+    min-height: 330px;
+    top: 171px;
+    gap: 2rem;
+    opacity: 0px;
+}
+.testimonial-content:nth-child(2){
+    display: none;
+}
+.testimonial-content:nth-child(3){
+    display:none;
+}
+.testimonial-content:last-child{
+    display: none;
+}
+
+.testimonial-content{
+    width: 303px;
+    height: 311px;
+    /* top: 9px; */
+    left: 20px;
+    border-radius: 10px 10px 0px 10px;
+    border: 1px solid grey;
+    opacity: 0px;
+    padding: 1.5rem;
+}
+
+.testimonial-content > span{
+    padding: 2rem 0;
+}
+
+/* slide */
+
+.slide-button{
+    margin-left: 2rem;
+    gap: 2rem;
+}
+
+.slide-button span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #7ccfed;
+    cursor: pointer;
+    color: #f2f5f6;
+}
+
+
+.slide-button span:hover, .slide-button span:focus, .slide-button span:active{
+    color: #fff;
+    background-color: #00ADEE;
+}
+
+
+
+
+
+
 
 
 
