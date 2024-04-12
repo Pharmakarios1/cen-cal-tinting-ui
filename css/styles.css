@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body{
-    min-width: 375px;
+    /* min-width: 100%; */
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 .container{
@@ -32,6 +32,7 @@ header{
 .logo img{
     width:75px;
     height: 40px;
+    cursor:pointer;
 }
 .mobile-view-button i{
     width: Hug (20px)px;
@@ -76,6 +77,7 @@ nav ul li a:focus{
     height: 30px;
     border: 2px solid #00ADEE;
     border-radius: 4px;
+    cursor: pointer;
 }
 .empty{
     background-color: transparent;
@@ -366,6 +368,7 @@ nav ul li a:focus{
     border: 1px solid #00ADEE;
     outline: none;
     margin: 1.5rem 0;
+    cursor: pointer;
 }
 
 .example ul li{
@@ -387,8 +390,6 @@ nav ul li a:focus{
 
 
 /* About Us */
-
-
 .about-us-wrapper{
     margin-top: 2rem;
     width: 100%;
@@ -410,6 +411,7 @@ nav ul li a:focus{
     background: #F5FCFF;
     color: #00ADEE;
     font-weight: 600;
+    cursor: pointer;
 }
 .about-button h1{
     font-size: 30px;
@@ -427,19 +429,17 @@ nav ul li a:focus{
     left: 20px;
     opacity: 0px;
     margin-bottom: 2rem;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 25px;
     text-align: left;
     color: #6D7D8B;
-
-
 }
 
 
 .about-us-content ul{
     margin-left: 1rem;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
@@ -450,7 +450,7 @@ nav ul li a:focus{
 
 .about-us-image img{
     width: 375px;
-    height: 381px;
+    height: 300px;
     
 }
 
@@ -493,21 +493,27 @@ nav ul li a:focus{
     font-weight: 400;
     line-height: 26.1px;
     text-align: left;
-
+    margin-bottom: 2.5rem;
     color: #6D7D8B;
 }
 
 .faq-content-wrapper details{
     padding: 1rem 1rem;
     color: #6D7D8B;
+    border-bottom: 1px solid #eef0f2;
 }
 
-.faq-content-wrapper details:first-child{
+.faq-content-wrapper details summary:hover{
     background-color: #F5FCFF;
     color: #00ADEE;
-    min-height: 20px;
+    border-radius: 2px;
 
 }
+
+.faq-content-wrapper details p{
+    background: #F5FCFF;
+}
+
 .faq-content-wrapper details:focus{
     color: #00ADEE;
     background-color: #F5FCFF;
@@ -526,11 +532,11 @@ nav ul li a:focus{
     background: #FAFAFA;
     padding: 1.5rem;
 
+
 }
 
 
 .quote-generator-button-wrapper button {
-
     min-width: 18px;
     height: 35px;
     border-radius: 30px;
@@ -539,6 +545,7 @@ nav ul li a:focus{
     background: #F5FCFF;
     color: #00ADEE;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
@@ -632,6 +639,7 @@ nav ul li a:focus{
     border-radius: 4px;
     border: 1px solid #00ADEE;
     margin: 1.5rem 0 1rem;
+    cursor: pointer;
 }
 /* Testimonials */
 
@@ -662,14 +670,18 @@ nav ul li a:focus{
     font-weight: 600;
 
 }
+
+.testimonial-content-wrapper{
+   overflow-x:hidden;
+}
 .testimonial-client-content{
     display: flex; 
-    margin: 2rem 1rem 2rem;
+    margin: 2rem 1rem;
 }
 
 .testimonial-content-wrapper h2{
     margin: 0 1rem;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 36.23px;
     color: #25313C;
@@ -682,30 +694,54 @@ nav ul li a:focus{
     gap: 2rem;
     opacity: 0px;
 }
-.testimonial-content:nth-child(2){
-    display: none;
-}
-.testimonial-content:nth-child(3){
-    display:none;
-}
-.testimonial-content:last-child{
-    display: none;
-}
 
 .testimonial-content{
-    width: 303px;
-    height: 311px;
-    /* top: 9px; */
+    min-width: 230px;
+    min-height: 250px;
     left: 20px;
-    border-radius: 10px 10px 0px 10px;
+    border-radius: 0px 10px 0px 10px;
     border: 1px solid grey;
     opacity: 0px;
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.testimonial-content > span{
-    padding: 2rem 0;
+.testimonial-content span i{
+    color:#FFBA40;
+    padding-right: .6rem;
 }
+.testimonial-content p{
+    color: #6D7D8B;
+    font-size: 14px;
+}
+.profile{
+    width: 100%;
+    align-items: center;
+    gap:1rem;
+}
+
+
+.profile-info{
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-info h6{
+    font-size: 13px;
+}
+.profile-info p{
+    font-size: 11px;
+}
+
+.testimonial-content span{
+    display: flex;
+    align-items: center;
+
+    gap: .6rem;
+}
+
 
 /* slide */
 
@@ -738,7 +774,7 @@ nav ul li a:focus{
 
 footer{
     width: 375px;
-    min-height: 546px;
+    min-height: 200px;
     top: 9102px;
     gap: 0px;
     opacity: 0px;
@@ -782,7 +818,7 @@ footer{
 }    
 
 .quick-link h5{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 23.29px;
     text-align: left;
@@ -903,7 +939,7 @@ footer{
     
     /* service section */
         .service-section-wrapper{
-            width: 375px;
+            width: 100%;
             min-height: 300px;
             top: 2015px;
             gap: 0px;
@@ -911,7 +947,20 @@ footer{
             background-color:#FAFAFA;
         }
 
+        .service-main-wrapper{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            
+        }
         
+        .service-main-wrapper .image{
+            height: 5rem;
+            /* background-color: greenyellow; */
+        }
+        .service-main-wrapper .content{
+            height: 5rem;
+            /* background-color: red; */
+        }
 
 
 
@@ -924,35 +973,79 @@ footer{
             gap: 5rem;
         }
 
-       
-        /* .about-button{
-            border: 1px solid greenyellow;
-            width: ;
-        } */
+            
+        .about-us-content p{
+            width: 700px;
+            font-size: 14px;
+        }
 
+
+        .about-us-content ul{
+            margin-left: 1rem;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+            margin-bottom: 2rem;
+            color: #6D7D8B;
+
+        }
+
+        .about-us-image img{
+            width: 100%;
+            height: 400px;
+            
+        }
+
+        .faq-wrapper{
+            display: flex;
+        }
+        .faq-button-wrapper{
+            margin-left: 2rem;
+            width: 300px;
+        }
+        .faq-button-wrapper p{
+        }
+
+        .faq-content-wrapper details{
+            margin-left: 5rem;
+        }
+                /* QUOTES */
+        .quotes-content-wrapper{
+            display: flex;
+            gap: 2rem;
+            width: 100%;
+        }
+        .quote-generator-button-wrapper{
+            width: 50%;
+        }
+        .quote-info-form-wrapper{
+            width: 50%;
+        }
         
-    .about-us-content p{
-        width: 700px;
-        font-size: 14px;
-    }
+        .form-wrapper {
+            width: 100%;
+        }
+            /* Testimonial section */
+        .testimonial-section-wrapper{
+            width: 100%;
+        }
 
+        /* Footer */
 
-    .about-us-content ul{
-        margin-left: 1rem;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 30px;
-        text-align: left;
-        margin-bottom: 2rem;
-        color: #6D7D8B;
+        footer{
+            width: 100%;
+            flex-direction: row;
+        }
 
-    }
-
-    .about-us-image img{
-        width: 100%;
-        height: 400px;
-        
-    }
+        .footer-image-wrapper{
+            width: 250px;
+            margin: 2rem 0 0 2rem;
+        }
+        .footer-links{
+            margin-top: 2rem;
+            flex-direction: row;
+        }
 
 } 
 
@@ -983,24 +1076,10 @@ footer{
 
 
 
+
+
+
 /* 
-
-.service-main-wrapper{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    
-}
-
-.service-main-wrapper .image{
-    height: 5rem;
-    background-color: greenyellow;
-}
-.service-main-wrapper .content{
-    height: 5rem;
-    background-color: red;
-}
-
-
 .about-us-wrapper{
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -1011,4 +1090,4 @@ footer{
     grid-template-columns: repeat(auto-fit, minmax(300px,600px));
 }
 .about-us-image{
-} */
+} */ */
