@@ -984,11 +984,47 @@ footer{
             
         }
         
+
+                
+        .btn{
+            width: 360px;
+            height: 44px;
+            color: #fff;
+            background-color: #00ADEE;
+            border-radius: 4px;
+            border: 1px solid #00ADEE;
+            outline: none;
+            margin: 4rem 1.5rem 0;
+            cursor: pointer;
+        }
+
+        .space{
+            gap: 2rem;
+        }
+
+        .example ul li{
+            margin-left: .8rem;
+            font-size: 14px;
+            color: #6D7D8B;
+        }
+        .example ul li img{
+            height: 12px;
+            width: 12px;
+        }
+
+        .list-top{
+            padding-top: 3rem;
+        }
+
+
+
+
+
         .service-main-wrapper .image{
-            min-height: 5rem;
+            min-height: 4rem;
         }
         .service-main-wrapper .content{
-            min-height: 5rem;
+            min-height: 4rem;
         }
         .card{
             display: flex;
@@ -1095,11 +1131,15 @@ footer{
 
         .footer-image-wrapper{
             width: 250px;
-            margin: 2rem 0 0 2rem;
+            margin: 2rem 0 0 0rem;
         }
         .footer-links{
             margin-top: 2rem;
             flex-direction: row;
+        }
+
+        .quick-link ul li a{
+            font-size: 12px;
         }
 
 } 
