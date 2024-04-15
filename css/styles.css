@@ -100,10 +100,13 @@ nav ul li a:focus{
     color: #00ADEE;
 }
 
+
+
 .fill:focus, .empty:focus{
     background-color: #00ADEE;
     color: white;
 }
+
 
 
 /* Js manipulation */
@@ -786,13 +789,13 @@ nav ul li a:focus{
 
 /* slide */
 
-.slide-button{
+.slider-button{
     margin: 35rem 2rem;
     position: absolute;
     gap: 1.5rem;
 }
 
-.slide-button span{
+.slider-button span{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -805,10 +808,25 @@ nav ul li a:focus{
 }
 
 
-.slide-button span:hover, .slide-button span:focus, .slide-button span:active{
+.slider-button span:hover{
     color: #fff;
     background-color: #00ADEE;
 }
+
+.slider-button span:focus{
+    color: #fff;
+    background-color: #00ADEE;
+} 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1152,7 +1170,7 @@ footer{
             display: flex; 
         }
 
-        .slide-button{
+        .slider-button{
             margin: 2rem 57rem;
             gap: 1.5rem;
         }
