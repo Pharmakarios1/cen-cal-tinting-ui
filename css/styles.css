@@ -209,7 +209,7 @@ nav ul li a:focus{
 }
 
 .banner{
-    width: 375px;
+    width:100% ;
     height: 304px;
     padding: 1.5rem;
     display: flex;
@@ -523,9 +523,8 @@ nav ul li a:focus{
     color: #6D7D8B;
 }
 .faq-content-wrapper{
-    max-width: 375px;
+    min-width: 375px;
     min-height: 50px;
-    overflow-x:hidden;
 }
 .faq-content-wrapper details{
     padding: 1rem 1rem;
@@ -716,6 +715,7 @@ nav ul li a:focus{
 
 .testimonial-content-wrapper{
    overflow-x:hidden;
+   text-overflow: ellipsis;
 }
 .testimonial-client-content{
     display: flex; 
@@ -739,32 +739,53 @@ nav ul li a:focus{
 }
 
 .testimonial-content{
-    min-width: 230px;
-    min-height: 250px;
+    min-width: 260px;
+    height: 315px;
     left: 20px;
-    border-radius: 0px 10px 0px 10px;
-    border: 1px solid grey;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgb(240, 238, 238);
     opacity: 0px;
-    padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
+}
+
+.stars{
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    /* border: 1px solid rgb(192, 233, 59); */
+    height: 20%;
+}
+
+.content{
+    height: 40%;
+    /* border: 1px solid red; */
+    color: #6D7D8B;
+    font-size: 14px;
+}
+
+.profile{
+    width: 100%;
+    height: 20%;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 1rem;
+    /* border: 1px solid green; */
+}
+
+.google{
+    height: 20%;
+    border-top: 1px solid rgb(241, 238, 238);
+    padding: 1rem 1.5rem 0;
+    
 }
 
 .testimonial-content span i{
     color:#FFBA40;
-    padding-right: .6rem;
+    padding-right: .3rem;
 }
-.testimonial-content p{
-    color: #6D7D8B;
-    font-size: 14px;
-    text-align:justify;
-}
-.profile{
-    width: 100%;
-    align-items: center;
-    gap:1rem;
-}
+
+
 
 
 .profile-info{
@@ -817,10 +838,6 @@ nav ul li a:focus{
     color: #fff;
     background-color: #00ADEE;
 } 
-
-
-
-
 
 
 
@@ -1120,16 +1137,19 @@ footer{
         /* faq */
         .faq-wrapper{
             display: flex;
-            justify-content: space-between;
+            width: 100%;
+            /* border: 1px solid red; */
+          
         }
         .faq-button-wrapper{
             margin-left: 2rem;
-            width: 300px;
             width: 30%;
+            /* border: 1px solid red; */
         }
         .faq-content-wrapper{
-            width: 50%;
+            width: 700px;
             margin-right: 2rem;
+            /* border: 1px solid red; */
 
 
         }
@@ -1140,8 +1160,13 @@ footer{
         .faq-content-wrapper details p{
           width: 100% ;
         }
-
-
+       .justify-between{
+        justify-content: space-between;
+       }
+       details span img{
+        width: 12px;
+        height: 12px;
+       }
 
 
 
